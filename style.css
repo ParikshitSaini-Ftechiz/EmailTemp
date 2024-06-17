@@ -1,0 +1,172 @@
+.emailBox {
+  max-width: 768px;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.emailBox h1 {
+  font-size: 30px;
+  color: #282973;
+}
+.emailBox h1.hook {
+  color: #FF8A00;
+}
+.emailBox p {
+  font-size: 18px;
+}
+.emailBox p span {
+  font-weight: 600;
+}
+.emailBox p span.green {
+  color: #13A300;
+}
+.emailBox .about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 60px 0;
+}
+.emailBox .about .aboutText {
+  flex: 1;
+}
+.emailBox .about .aboutText a {
+  text-decoration: none;
+  color: #13A300;
+  font-weight: 600;
+}
+.emailBox .about .aboutImage {
+  flex: 1;
+}
+.emailBox .about .aboutImage img {
+  width: 100%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.emailBox .records .record {
+  padding: 15px;
+  text-align: center;
+}
+.emailBox .records .record img {
+  width: 50%;
+  border-radius: 12px;
+}
+.emailBox .records .record h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 auto 15px;
+  max-width: 650px;
+}
+.emailBox .records .record h4 {
+  font-size: 25px;
+  margin: 0;
+}
+.emailBox .records .record1 {
+  background-color: rgba(19, 163, 0, 0.2);
+}
+.emailBox .records .record2 {
+  background-color: #EAEAEA;
+}
+.emailBox .records .record2 h4 {
+  color: #282973;
+}
+.emailBox .comapnies {
+  padding: 40px 0;
+  background-color: #F3F3FB;
+  text-align: center;
+}
+.emailBox .comapnies .logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 40px;
+  padding: 15px;
+}
+.emailBox .comapnies .logos img {
+  text-align: center;
+  display: block;
+  margin: auto;
+  filter: grayscale(100%);
+  cursor: pointer;
+  max-width: 120px;
+  width: 100%;
+}
+.emailBox .comapnies .logos img:hover {
+  filter: none;
+}
+.emailBox .comapnies .logos p {
+  font-size: 14px;
+}
+.emailBox .reviews {
+  padding: 40px 0;
+}
+.emailBox .reviews .review {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.emailBox .hookLine {
+  text-align: center;
+}
+.emailBox .portfolio {
+  text-align: center;
+  padding: 40px 0;
+}
+.emailBox .portfolio h1 {
+  max-width: 558px;
+  margin: 15px auto 30px;
+}
+.emailBox .portfolio .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.emailBox .portfolio .links a .linkBox {
+  width: 60px;
+  height: 60px;
+  background-color: #F3F3FB;
+  border: 5px solid #ffffff;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 450px) {
+  .emailBox h1 {
+    font-size: 20px;
+  }
+  .emailBox p {
+    font-size: 16px;
+  }
+  .emailBox .about {
+    padding: 30px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .emailBox .records {
+    flex-direction: column;
+    text-align: center;
+  }
+  .emailBox .records .record {
+    min-height: 120px;
+  }
+  .emailBox .records .record img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  .emailBox .comapnies .logos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .emailBox .comapnies .logos img {
+    filter: none;
+  }
+}/*# sourceMappingURL=style.css.map */
